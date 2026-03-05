@@ -11,6 +11,7 @@ export const headerData: HeaderItem[] = [
     ],
   },
   { label: "Asystentura", href: "/asystentury" },
+  { label: "Spółdzielnia socjalna", href: "/spoldzielnia" },
   { label: "Aktualności", href: "/events" },
   { label: "Nasz zespół", href: "/blog" },
   { label: "Kontakt", href: "/contact" },

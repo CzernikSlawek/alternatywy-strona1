@@ -1,7 +1,6 @@
 import React, { FC } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import Logo from "../Header/Logo";
 import { Icon } from "@iconify/react/dist/iconify.js";
 
 const Footer: FC = () => {
@@ -9,21 +8,48 @@ const Footer: FC = () => {
     <footer className="pt-16 dark:bg-dark">
       <div className="container mx-auto lg:max-w-(--breakpoint-xl) md:max-w-(--breakpoint-md) px-4">
         <div className="grid grid-cols-1 sm:grid-cols-12 gap-8 pb-10 ">
+
+          {/* LOGO */}
           <div className="lg:col-span-3 md:col-span-4 col-span-6">
-            <Logo />
+
+            <div className="flex items-center gap-4 flex-wrap">
+
+              <Link href="/">
+                <Image
+                  src="/images/logo/logo.jpg"
+                  alt="Alternatywy"
+                  width={220}
+                  height={80}
+                  className="h-14 w-auto object-contain"
+                />
+              </Link>
+
+              <Image
+                src="/images/logo/przedsiebiorstwo-spoleczne.jpg"
+                alt="Przedsiębiorstwo Społeczne"
+                width={180}
+                height={60}
+                className="h-12 w-auto object-contain"
+              />
+
+            </div>
+
             <div className="mt-6">
               <p className="text-sm font-light text-muted dark:text-white/60 mb-6">
                 Nasze domy otwarte są od poniedziałku do piątku w godzinach
                 07:00 - 17:00
               </p>
+
               <p className="text-sm font-light text-muted dark:text-white/60 mb-0">
                 W święta przypadające na te dni nasze placówki są zamknięte.
               </p>
             </div>
           </div>
 
+          {/* ADRES */}
           <div className="lg:col-span-3 md:col-span-4 col-span-6">
             <div className="lg:pl-10">
+
               <div className="flex items-start mb-8 gap-4">
                 <Image
                   src="/images/icons/icon-pin.svg"
@@ -31,11 +57,13 @@ const Footer: FC = () => {
                   width={24}
                   height={24}
                 />
-                <div className="">
+
+                <div>
                   <h5 className="text-sm text-midnight_text dark:text-white mb-4">
                     ul. Fabryczna 23B <br />
                     65-463 Zielona Góra
                   </h5>
+
                   <p className="text-sm text-midnight_text dark:text-white mb-4">
                     ul. Gen.W.Sikorskiego 17/2 <br />
                     65-454 Zielona Góra
@@ -50,14 +78,13 @@ const Footer: FC = () => {
                   width={24}
                   height={24}
                 />
-                <div className="">
-                  <a
-                    href="tel:+48603254662"
-                    className="text-sm text-midnight_text dark:text-white mb-0 hover:text-primary! transition"
-                  >
-                    +48 603 254 662
-                  </a>
-                </div>
+
+                <a
+                  href="tel:+48603254662"
+                  className="text-sm text-midnight_text dark:text-white hover:text-primary transition"
+                >
+                  +48 603 254 662
+                </a>
               </div>
 
               <div className="flex items-center gap-4">
@@ -67,24 +94,27 @@ const Footer: FC = () => {
                   width={24}
                   height={24}
                 />
-                <div className="">
-                  <a
-                    href="mailto:alternatywy.dlaseniora@gmail.com"
-                    className="text-sm text-midnight_text dark:text-white mb-0 hover:text-primary! transition"
-                  >
-                    alternatywy.dlaseniora@gmail.com
-                  </a>
-                </div>
+
+                <a
+                  href="mailto:alternatywy.dlaseniora@gmail.com"
+                  className="text-sm text-midnight_text dark:text-white hover:text-primary transition"
+                >
+                  alternatywy.dlaseniora@gmail.com
+                </a>
               </div>
+
             </div>
           </div>
 
+          {/* KONTAKTY */}
           <div className="lg:col-span-3 md:col-span-4 col-span-6">
+
             <h4 className="text-base text-midnight_text dark:text-white mb-4">
               Kontakty
             </h4>
 
             <div className="space-y-4 text-sm text-muted dark:text-white/60">
+
               <p>
                 📞{" "}
                 <span className="text-midnight_text dark:text-white font-medium">
@@ -100,15 +130,19 @@ const Footer: FC = () => {
                 </span>
                 <br /> ul. Sikorskiego
               </p>
+
             </div>
           </div>
 
+          {/* ADRES REJESTROWY */}
           <div className="lg:col-span-3 md:col-span-4 col-span-6">
+
             <h4 className="text-base text-midnight_text dark:text-white mb-4">
               Adres rejestrowy
             </h4>
 
             <div className="text-sm text-muted dark:text-white/60 space-y-3">
+
               <p>SPÓŁDZIELNIA SOCJALNA „ALTERNATYWY”</p>
 
               <p>
@@ -124,23 +158,28 @@ const Footer: FC = () => {
                 <br />
                 KRS: 0000700353
               </p>
+
             </div>
+
           </div>
+
         </div>
       </div>
 
+      {/* DOLNA BELKA */}
       <div className="border-t border-border dark:border-dark_border">
+
         <div className="container mx-auto lg:max-w-(--breakpoint-xl) md:max-w-(--breakpoint-md) px-4 flex items-center justify-between py-6 flex-col lg:flex-row gap-4">
-          {/* COPYRIGHT */}
+
           <p className="text-sm text-midnight_text dark:text-white">
             Copyright © 2025 SPÓŁDZIELNIA SOCJALNA ALTERNATYWY DOM DZIENNEGO
             POBYTU DLA SENIORA W ZIELONEJ GÓRZE.
           </p>
 
-          {/* PRAWA STRONA: linki + social blisko siebie */}
           <div className="flex items-center gap-4 flex-none">
-            {/* LINKI */}
+
             <div className="flex items-center gap-6 text-sm text-midnight_text dark:text-white">
+
               <Link
                 href="/polityka-prywatnosci"
                 className="hover:text-primary transition"
@@ -154,19 +193,19 @@ const Footer: FC = () => {
               >
                 Oświadczenie o dostępności
               </Link>
+
             </div>
 
-            {/* SOCIAL */}
             <div className="flex items-center gap-4">
+
               <a
                 href="https://www.facebook.com/alternatywy.dlaseniora"
                 target="_blank"
                 rel="noopener noreferrer"
-                aria-label="Facebook"
               >
                 <Icon
                   icon="ri:facebook-fill"
-                  className="text-xl text-midnight_text dark:text-white hover:text-primary! cursor-pointer transition"
+                  className="text-xl text-midnight_text dark:text-white hover:text-primary cursor-pointer transition"
                 />
               </a>
 
@@ -174,16 +213,19 @@ const Footer: FC = () => {
                 href="https://www.instagram.com/alternatywy.dla.seniora/"
                 target="_blank"
                 rel="noopener noreferrer"
-                aria-label="Instagram"
               >
                 <Icon
                   icon="mdi:instagram"
-                  className="text-xl text-midnight_text dark:text-white hover:text-primary! cursor-pointer transition"
+                  className="text-xl text-midnight_text dark:text-white hover:text-primary cursor-pointer transition"
                 />
               </a>
+
             </div>
+
           </div>
+
         </div>
+
       </div>
     </footer>
   );
