@@ -47,7 +47,7 @@ export default function RootLayout({
 
         <Script
           src="https://cdn.userway.org/widget.js"
-          data-account="FBKFSL0XvR"
+          data-account="fBKFSL0XvR"
           strategy="afterInteractive"
         />
       </body>
