@@ -179,12 +179,11 @@ body {
   color: #2cdd9b !important;
 }
 
-/* USERWAY – poprawka położenia widgetu na mobile */
 @media (max-width: 768px) {
-  #userwayAccessibilityIcon,
-  .userway_accessibility_icon,
-  .uwy.userway_p3 {
-    bottom: 90px !important;
-    right: 10px !important;
+  .uwy.userway_p3,
+  .userway_accessibility_icon {
+    bottom: 80px !important;
+    right: 12px !important;
+    transform: scale(0.9) !important;
   }
 }
