@@ -98,6 +98,67 @@ export default function SpoldzielniaPage() {
             i celów Państwa firmy.
           </p>
 
+          {/* O NAS */}
+<div className="mt-16 space-y-6 text-lg">
+
+  <h2 className="text-2xl font-semibold">O nas</h2>
+
+  <p>
+    Jesteśmy spółdzielnią socjalną, która łączy profesjonalną działalność
+    gospodarczą z misją społeczną. Naszym celem jest nie tylko świadczenie
+    wysokiej jakości usług, ale przede wszystkim tworzenie miejsc pracy dla osób
+    zagrożonych wykluczeniem społecznym i zawodowym.
+  </p>
+
+  <p>
+    Działamy na podstawie Ustawy z dnia 27 kwietnia 2006 r. o spółdzielniach
+    socjalnych, która określa zasady funkcjonowania tego typu podmiotów oraz ich
+    społeczną rolę w procesie reintegracji zawodowej i społecznej. Oznacza to, że
+    nasza działalność łączy przedsiębiorczość z odpowiedzialnością społeczną.
+  </p>
+
+  <h3 className="text-xl font-semibold">Nasza misja</h3>
+
+  <ul className="list-disc pl-6 space-y-2">
+    <li>wspieranie osób powracających na rynek pracy,</li>
+    <li>budowanie stabilnych miejsc zatrudnienia,</li>
+    <li>wzmacnianie samodzielności i kompetencji zawodowych członków spółdzielni,</li>
+    <li>rozwój lokalnej społeczności.</li>
+  </ul>
+
+  <h3 className="text-xl font-semibold">Jak działamy?</h3>
+
+  <p>
+    Prowadzimy działalność gospodarczą na zasadach rynkowych, dbając o jakość,
+    terminowość i profesjonalizm. Wypracowany dochód przeznaczamy przede
+    wszystkim na:
+  </p>
+
+  <ul className="list-disc pl-6 space-y-2">
+    <li>rozwój spółdzielni,</li>
+    <li>tworzenie nowych miejsc pracy,</li>
+    <li>działania społeczne i integracyjne.</li>
+  </ul>
+
+  <p>
+    Funkcjonujemy w oparciu o zasady demokratycznego zarządzania – każdy członek
+    ma realny wpływ na kierunek rozwoju naszej organizacji.
+  </p>
+
+  <h3 className="text-xl font-semibold">Dlaczego warto z nami współpracować?</h3>
+
+  <ul className="list-disc pl-6 space-y-2">
+    <li>otrzymujesz rzetelne i profesjonalne wykonanie zlecenia,</li>
+    <li>wspierasz lokalną ekonomię społeczną,</li>
+    <li>przyczyniasz się do tworzenia realnych zmian społecznych.</li>
+  </ul>
+
+  <p className="font-semibold">
+    Łączymy biznes z misją. Działamy odpowiedzialnie. Pracujemy z zaangażowaniem.
+  </p>
+
+</div>
+
         </div>
 
       </div>
