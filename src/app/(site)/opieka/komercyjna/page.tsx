@@ -37,7 +37,7 @@ export default function OpiekaKomercyjnaPage() {
               <li>• Uroczyste obchodzenie świąt i jubileuszy</li>
               <li>• Integracyjne "wieczorki taneczne</li>
               <li>• Porady higieniczne i kosmetyczne</li>
-              <li>• Szeroki wachlarz zajęć (muzyczne, ruchowe, treningi pamięci, taneczne, plastyczne, teatralne, kabaretowe, komputerowe, językowe (j. angielski, j. niemiecki), kulinarne, relaksacyjne, światłoterapia, czytanie, gry i zabawy towarzyskie, spacery, seanse filmowe, wyjścia do teatru, muzeum i na inne wydarzenia kulturalne)</li>
+              <li>• Szeroki wachlarz zajęć (muzyczne, ruchowe, treningi pamięci, taneczne, plastyczne, teatralne, kulinarne, relaksacyjne, światłoterapia, czytanie, gry i zabawy towarzyskie, spacery, seanse filmowe, wyjścia do teatru, muzeum i na inne wydarzenia kulturalne)</li>
               <li>• Wsparcie dla rodzin opiekujących się seniorami</li>
             </ul>
           </div>
