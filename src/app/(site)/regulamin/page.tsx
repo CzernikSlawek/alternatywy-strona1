@@ -123,7 +123,7 @@ export default function RegulaminPage() {
 <p>3. Regulamin wchodzi w życie z dniem jego zatwierdzenia przez Dyrektora placówki.</p>
  
 <p>DOM DZIENNEGO POBYTU „ALTERNATYWY”</p>
-<p>ul. gen. Władysława Sikorskiego 15/4, 65-453 Zielona Góra</p>
+<p>ul. Fabryczna 23B, 65-463 Zielona Góra</p>
 <p>ZATWIERDZENIE REGULAMINU</p>
 
 <p>Regulamin Domu Dziennego Pobytu „Alternatywy” został zatwierdzony dnia 30.10.2025</p>

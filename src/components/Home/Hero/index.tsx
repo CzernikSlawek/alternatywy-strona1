@@ -63,8 +63,8 @@ const Hero = () => {
               <h4 className="text-6xl text-midnight_text dark:text-white">2</h4>
             </div>
             <div className="col-span-1 px-5 py-4">
-              <p className="ext-xl text-midnight_text dark:text-white mb-1">Liczba pacjentów</p>
-              <h4 className="text-6xl text-midnight_text dark:text-white">70</h4>
+              <p className="ext-xl text-midnight_text dark:text-white mb-1">Liczba osób</p>
+              <h4 className="text-6xl text-midnight_text dark:text-white">62</h4>
             </div>
           </div>
           <div className="flex justify-center">

@@ -65,8 +65,8 @@ const Footer: FC = () => {
                   </h5>
 
                   <p className="text-sm text-midnight_text dark:text-white mb-4">
-                    ul. Gen.W.Sikorskiego 17/2 <br />
-                    65-454 Zielona Góra
+                    ul. Chmielna 1<br />
+                    65-261 Zielona Góra
                   </p>
                 </div>
               </div>
@@ -79,13 +79,22 @@ const Footer: FC = () => {
                   height={24}
                 />
 
+                <div className="flex flex-col leading-5">
                 <a
-                  href="tel:+48603254662"
-                  className="text-sm text-midnight_text dark:text-white hover:text-primary transition"
-                >
-                  +48 603 254 662
-                </a>
-              </div>
+                 href="tel:+48603254662"
+                 className="text-sm text-midnight_text dark:text-white hover:text-primary transition"
+               >
+               +48 603 254 662
+               </a>
+
+               <a
+                href="tel:+48793844888"
+                className="text-sm text-midnight_text dark:text-white hover:text-primary transition"
+               >
+               +48 793 844 888
+               </a>
+               </div>
+               </div>
 
               <div className="flex items-center gap-4">
                 <Image
@@ -126,9 +135,9 @@ const Footer: FC = () => {
               <p>
                 📞{" "}
                 <span className="text-midnight_text dark:text-white font-medium">
-                  +68 4510936
+                  +48 699 888 884
                 </span>
-                <br /> ul. Sikorskiego
+                <br /> ul. Chmielna
               </p>
 
             </div>

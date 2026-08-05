@@ -15,12 +15,11 @@ const ContactInfo = () => {
           "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2460.1761882146047!2d15.502700076909415!3d51.93073977968874!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47061161777d3bfd%3A0xf1645b18932cb2de!2sFabryczna%2023B%2C%2065-463%20Zielona%20G%C3%B3ra!5e0!3m2!1spl!2spl!4v1771449702809!5m2!1spl!2spl",
       },
       {
-        id: "sikorskiego",
-        title: "ul. Gen. W. Sikorskiego 17/2",
-        subtitle: "65-454 Zielona Góra",
-        // Wklej tutaj embed dla Sikorskiego
+        id: "chmielna",
+        title: "ul. Chmielna 1",
+        subtitle: "65-261 Zielona Góra",
         mapSrc:
-          "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2459.9469834037855!2d15.503431276909707!3d51.93492057938169!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470613df12e75fbd%3A0x2dfb7902fcbc3456!2sGenera%C5%82a%20W%C5%82adys%C5%82awa%20Sikorskiego%2017%2F2%2C%2065-454%20Zielona%20G%C3%B3ra!5e0!3m2!1spl!2spl!4v1771450278943!5m2!1spl!2spl",
+          "https://www.google.com/maps?q=Chmielna+1,+65-261+Zielona+Góra&output=embed",
       },
     ],
     []

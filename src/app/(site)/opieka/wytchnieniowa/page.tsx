@@ -84,7 +84,7 @@ export default function OpiekaWytchnieniowaPage() {
                 w naszych placówkach:
               </li>
               <li>ul. Fabryczna 23B, 65-463 Zielona Góra,</li>
-              <li>ul. Gen. W. Sikorskiego 17/2, 65-454 Zielona Góra.</li>
+              <li>ul. Chmielna 1, 65-261 Zielona Góra.</li>
               <li>Wymagane dokumenty:</li>
               <li>• wypełniona karta zgłoszeniowa (do pobrania poniżej),</li>
               <li>• kopia orzeczenia o niepełnosprawności (oryginał orzeczenia do wglądu)</li>

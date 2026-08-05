@@ -191,14 +191,27 @@ const Header: React.FC = () => {
               width={32}
               height={32}
             />
-            <div className="">
-              <p className="text-sm font-normal text-muted dark:text-white/60 mb-0">
-                Numer kontaktowy
-              </p>
-              <Link href="#" className="text-base font-semibold mb-0 hover:text-primary">
-              +48 603 254 662
-              </Link>
+            <div>
+            <p className="text-sm font-normal text-muted dark:text-white/60 mb-0">
+             Numery kontaktowe
+            </p>
+
+            <div className="flex flex-col">
+            <a
+             href="tel:+48603254662"
+             className="text-base font-semibold hover:text-primary"
+            >
+            +48 603 254 662
+            </a>
+
+            <a
+            href="tel:+48793844888"
+            className="text-base font-semibold hover:text-primary"
+            >
+            +48 793 844 888
+            </a>
             </div>
+          </div>
           </div>
           <button onClick={() => info?.setIsDonationOpen(true)}  className="text-error text-sm font-semibold border border-error py-4 px-7 rounded-md ml-8 hover:bg-error hover:text-white">
             Wypełnij formularz

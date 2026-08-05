@@ -133,6 +133,15 @@ export const Eventdata: {
   youtubeId?: string;
 }[] = [
   {
+    image: "/images/event/event-20.jpg",
+    title: "USŁUGI PROZDROWOTNE",
+    slug: "event-20",
+    text: "Realizacja projektu na zlecenie CUS Zielona Góra.",
+    date: "2026-05-23",
+    detail:
+      "Pragniemy poinformować, że Spółdzielnia Socjalna ALTERNATYWY rozpoczęła realizację usług prozdrowotnych w ramach projektu „Utworzenie Centrum Usług Społecznych w Zielonej Górze. Projekt współfinansowany ze środków Unii Europejskiej w ramach Działania 6.13 Usługi społeczne i zdrowotne, Priorytetu 6 Fundusze Europejskie na wsparcie obywateli, Regionalnego Programu Fundusze Europejskie dla Lubuskiego 2021–2027. W naszej ofercie znajdziecie m.in.: ✨ integrację bilateralną – dla lepszej koordynacji i pracy mózgu 🧘 jogę – połączenie ruchu, oddechu i relaksu 💪 zajęcia usprawniające – poprawa kondycji i samodzielności 🥗 edukację zdrowotną i psychodietetyczną 💃 choreoterapię – ruch i taniec dla zdrowia fizycznego i emocjonalnego 🌸 techniki relaksacji – redukcja stresu i napięcia 📍 Miejsce: ul. Sikorskiego 17/2, Zielona Góra 💸 Koszt: tylko 15 zł za godzinę zajęć To świetna okazja, aby: ✔ zadbać o zdrowie ✔ poznać nowych ludzi ✔ spędzić czas aktywnie i przyjemnie 📞 Zapisy i informacje: 68 454 63 60 (7:00–15:00) 883 484 300 / 504 946 847 (16:00–20:00) 👉 Nie odkładaj zdrowia na później – dołącz do nas już dziś!",
+  },
+  {
     image: "/images/event/event-1.jpg",
     title: "ASYSTENTURA OSÓB Z NIEPEŁNOSPRAWNOŚCIĄ ",
     slug: "event-1",

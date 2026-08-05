@@ -19,7 +19,8 @@ const partners = [
   { name: "Partner 16", src: "/images/partners/partners-16.jpg" },
   { name: "Partner 17", src: "/images/partners/partners-17.jpg" },
   { name: "Partner 18", src: "/images/partners/partners-18.jpg" },
-  { name: "Partner 18", src: "/images/partners/partners-19.jpg" },
+  { name: "Partner 19", src: "/images/partners/partners-19.jpg" },
+  { name: "Partner 20", src: "/images/partners/partners-20.jpg" },
 ];
 
 export default function PartnerzyPage() {
