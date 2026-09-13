@@ -9,7 +9,7 @@ import Newsletter from '@/components/Home/NewsLetter';
 // import Testimonial from "@/components/...";
 import Volunteer from '@/components/SharedComponent/Volunteer';
 export const metadata: Metadata = {
-  title: "Endeavor",
+  title: "Alternatywy – Aktywna Przestrzeń Seniora",
 };
 
 export default function Home() {
